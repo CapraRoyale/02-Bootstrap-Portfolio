@@ -1,0 +1,10 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-image: url(../Assets/Images/bg.jpg);
+    background-attachment: fixed;
+    background-blend-mode: lighten;
+    background-position: 0;
+}

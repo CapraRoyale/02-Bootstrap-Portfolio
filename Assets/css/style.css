@@ -1,14 +1,14 @@
 html {
-    background-image: linear-gradient(#999, #aaa, #ccc);
+    background-image: linear-gradient (#aaa, #ccc);
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
 }
 
 header {
     margin: auto;
-    width: 100%;
+    width: 960px;
     height: 50px;
-    padding: 10px 10px;
     background-color: white;
     border-bottom: #cccccc solid 5px;
     right: 0;
@@ -16,27 +16,34 @@ header {
     position: sticky;
 }
 
-nav {}
+#title {
+    width: 80px;
+    float: left;
+    padding 10px;
+    margin: auto;
+}
+
+h1 {
+    width: 25%;
+    float: left;
+}
+
+#nav {
+    width: 30%;
+    float: right;
+    padding: 15px;
+    margin: auto;
+}
 
 footer {
     height: 30px;
     width: 100%;
-    background-color: white;
-    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    background-color: #bbb;
+    border-top: 2px solid #4aaaa5;
     position: fixed;
     bottom: 0;
     clear: both;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #4aaaa5;
-    padding: 5px;
 }
 
 h1 {
@@ -44,9 +51,12 @@ h1 {
     text-align: center;
     font-size: 20px;
     width: 25%;
+    background-color: #4aaaa5;
+    margin: 0 0 5px 0;
 }
 
-h2 {
+h2,
+h3 {
     font-size: 15px;
     margin: auto;
     padding: 10px;
@@ -56,19 +66,30 @@ article {
     width: 50%;
 }
 
-main {
-    margin: 100px auto 50px auto;
-    width: 75%;
+.container {
+    width: 960px;
+}
+
+#main {
+    margin: 50px auto 50px auto;
+    width: 960px;
     padding: 10px;
     background-color: #ffffff;
     border: 2px solid #ddd;
 }
 
-aside {}
+.aside {
+    width: 50%;
+    float: right;
+}
 
 #moi {
     max-width: 50%;
     margin: 10px;
+}
+
+.gimg {
+    width: 100%;
 }
 
 a:link,
@@ -81,8 +102,4 @@ a:active {
 
 a:hover {
     text-decoration-line: line-through;
-}
-
-a#current {
-    text-shadow: #777 3px;
 }

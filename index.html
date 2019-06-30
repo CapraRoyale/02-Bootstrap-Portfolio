@@ -16,46 +16,43 @@
         body {
             font-family: 'Roboto', sans-serif;
         }
+        
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            background-color: #777777;
+        }
     </style>
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <!-- Header and navigation -->
         <div class="row">
-            <!--Header-->
-            <div class="col-sm-12 col-md-4 col-lg-2">
-                <div class="card-body">
-                    <h1 class="text-center">
-                        Siege
-                    </h1>
-                </div>
-            </div>
-            <div class="col"></div>
             <!--Navigation-->
-            <div class="col-sm-12 col-md-6">
-                <nav class="navbar navbar-expand navbar-light bg-light float-right">
-                    <div class="nav navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="contact.html">Contact</a>
-                        <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
-                    </div>
-                </nav>
+            <div class="col-12" role="navigation">
+                <ul class="nav justify-content-sm-between justify-content-xs-center">
+                    <a class="navbar-brand">
+                        <h1>Siege | About</h1>
+                    </a>
+                    <nav class="navbar nav-pills navbar-expand float-right navbar-dark">
+                        <li class="nav-item"><a class="nav-link text-light active" href="#">Home<span
+                                    class="sr-only ">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="contact.html ">Contact</a></li>
+                        <li class="nav-item"><a class="nav-link text-dark" href="portfolio.html">Portfolio</a></li>
+                    </nav>
+                </ul>
             </div>
         </div>
         <!-- main body-->
-        <div class="container col-10 justify-content-md-center">
-            <div class="row border-bottom">
-                <h1>About Me</h1>
-            </div>
+        <div class="container col-10 justify-content-center">
             <div class="row">
                 <div class="col-sm-12 col-md-4 col-lg-3">
                     <div class="card-body">
-                        <img src="assets/images/moi.jpeg" alt="" class="rounded-lg float-left img-fluid">
+                        <img src="Assets/images/moi.jpeg" alt="" class="rounded-lg float-left img-fluid">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-8 col-lg-6">
-                    <p class="card-body float-right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur maiores quidem, accusamus pariatur alias eos nobis ipsa amet inventore architecto officiis consectetur id nisi assumenda magni debitis praesentium eaque velit.</p>
+                    <p class="card-body float-right">Former intellectual, Dancer, failed vegan, Performer, angry queer, Sheet Metal Worker, Budding Web Developer, Atheist, Potato Lover, Humanist, blissfully coasting towards eternal oblivion.</p>
                 </div>
             </div>
         </div>

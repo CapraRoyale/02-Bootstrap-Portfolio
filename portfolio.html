@@ -2,71 +2,74 @@
 <html lang="en">
 
 <head>
-    <title>Title</title>
+    <title>Siege | Web Development</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
     <!-- Start Code -->
+    <nav class="navbar navbar-expand-sm">
+        <a class="nav navbar-brand">
+            <h1>Siege | About</h1>
+        </a>
+        <ul class="nav navbar nav-pills ml-auto flex-column-sm">
+            <li class="nav-item m-1">
+                <a class="nav-link" href="index.html">Home
+                </a>
+            </li>
+            <li class="nav-item m-1">
+                <a class="nav-link" href="contact.html ">Contact</a>
+            </li>
+            <li class="nav-item m-1 dropdown">
+                <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Portfolio
+                    <span class="sr-only ">(current)
+                    </span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="gallery.html">Photography</a>
+                    <a class="dropdown-item" href="portfolio.html">Web Development</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
     <div class="container-fluid">
         <!-- Header and navigation -->
         <div class="row">
-            <!--Navigation-->
-            <div class="col" role="navigation">
-                <ul class="nav justify-content-sm-between justify-content-xs-center">
-                    <a class="navbar-brand">
-                        <h1>Siege | Portfolio</h1>
-                    </a>
-                    <nav class="navbar nav-pills navbar-expand float-right navbar-dark">
-                        <li class="nav-item"><a class="nav-link text-dark" href="index.html ">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="contact.html ">Contact</a></li>
-                        <li class="nav-item"><a class="nav-link text-light active" href="gallery.html ">Gallery<span
-                                    class="sr-only ">(current)</span></a></li>
-                        <li class="nav-item"><a class="nav-link text-dark" href="portfolio.html">Portfolio</a></li>
-                    </nav>
-                </ul>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div class="card mb-4 shadow-sm">
-                    <a href="https://capraroyale.github.io/03-Word-Guess/">
-                        <img class="img-fluid" src="assets/images/WordGuess.png">
-
-                        <p class="card-text">Word Guess</p>
-                    </a>
+            <div class="col-xs-1-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-text">Text</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="col">
-                <div class="card mb-4 shadow-sm">
-                    <a href="https://capraroyale.github.io/01-Basic-Portfolio/">
-                        <img class="img-fluid" src="assets/images/BasicPortfolio.png">
-
-                        <p class="card-text">Basic Portfolio
-                        </p>
-                    </a>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card mb-4 shadow-sm">
-                    <a href="gallery.html">
-                        <img class="img-fluid" src="assets/images/PANO_20190112_204726.vr_MD.jpg">
-                        <p class="card-text">
-                            Photography Gallery
-                        </p>
-                    </a>
+            <div class="col-xs-1-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Title</h3>
+                        <p class="card-text">Text</p>
+                    </div>
                 </div>
             </div>
         </div>

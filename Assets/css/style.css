@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  background-image: url("../images/skyline.jpg");
+  background-image: url("/images/skyline.jpg");
 }
 
 .nav-pills .nav-link{

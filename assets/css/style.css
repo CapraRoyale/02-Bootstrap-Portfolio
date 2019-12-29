@@ -23,3 +23,15 @@ body {
 .card-img-overlay .card-title{
   background-color: #bbb;
 }
+
+span.small{
+  font-size: 25px;
+}
+
+span.medium{
+  font-size: 32px;
+}
+
+span.large{
+  font-size: 40px;
+}

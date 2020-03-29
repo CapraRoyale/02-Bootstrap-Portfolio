@@ -35,3 +35,7 @@ span.medium{
 span.large{
   font-size: 40px;
 }
+
+h1.card-title {
+  bottom: 10px;
+}

@@ -20,22 +20,14 @@ body {
   background-color: #777777;
 }
 
-.card-img-overlay .card-title{
-  background-color: #bbb;
-}
-
 span.small{
-  font-size: 25px;
+  font-size: 18px;
 }
 
 span.medium{
-  font-size: 32px;
+  font-size: 24px;
 }
 
 span.large{
-  font-size: 40px;
-}
-
-h1.card-title {
-  bottom: 10px;
+  font-size: 30px;
 }
